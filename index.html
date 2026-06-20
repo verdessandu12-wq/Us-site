@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Cool input</title>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body>
-  
+  <div class = "container_for_all">
+  <h1 id = "title">Sign in</h1>
+  <div class = "container">
+    <input type = "text" id = "username" class = "input_username" required autocomplete="off" maxlength="16">
+    <label for = "username" class = "label_user">Numele</label>
+</div>
+    <span id = "span_error"></span>
+    <div class = "container">
+    <input type = "password" id = "password" class = "input_username" required autocomplete="off" maxlength="16">
+    <label for = "password" class = "label_user">Parola</label>
+  </div>
+      <span id = "span_error2"></span>
+    <div class = "container">
+    <input type = "text" id = "email" class = "input_username" required autocomplete="off">
+    <label for = "email" class = "label_user">Email</label>
+
+  </div>
+      <span id = "span_error3"></span>
+  <button id = "gata">Gata</button>
+    <h3 id = "end"></h3>
+  </div>
+  <script src = "main.js"></script>
 </body>
 
 </html>
