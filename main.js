@@ -12,12 +12,12 @@ let end = document.querySelector("#end");
 let corect = [false, false, false];
 let finall = 0;
 button_gata.addEventListener("click", () => {
-   if(user.value.trim() == ''){
+  if(user.value.trim() == ''){
       span.textContent = "Spațiul acesta nu poate să fie gol";
         corect[0] = false;
    }
    
-   else {
+  else {
       span.textContent = '';
       corect[0] = true;
    }
